@@ -1,0 +1,55 @@
+# GitHub Labeler config - labels applied based on changed files in PRs to main
+# See: https://github.com/actions/labeler
+
+'documentation':
+  - '**/*.md'
+  - '**/*.mdx'
+  - 'docs/**'
+  - '*.rst'
+  - '*.txt'
+
+'config / ci':
+  - '.github/**'
+  - '*.yml'
+  - '*.yaml'
+  - '.editorconfig'
+  - '.prettierrc*'
+  - '.eslintrc*'
+  - 'tsconfig*.json'
+  - 'package.json'
+  - 'Cargo.toml'
+  - 'pyproject.toml'
+  - 'Makefile'
+
+'dependencies':
+  - 'package-lock.json'
+  - 'yarn.lock'
+  - 'pnpm-lock.yaml'
+  - 'requirements*.txt'
+  - 'Pipfile*'
+  - 'Cargo.lock'
+  - 'go.sum'
+  - 'poetry.lock'
+
+'source':
+  - 'src/**'
+  - 'lib/**'
+  - 'app/**'
+  - '**/*.js'
+  - '**/*.jsx'
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.py'
+  - '**/*.go'
+  - '**/*.rs'
+  - '**/*.java'
+  - '**/*.kt'
+
+'tests':
+  - '**/*.test.*'
+  - '**/*.spec.*'
+  - '**/__tests__/**'
+  - '**/test/**'
+  - '**/tests/**'
+  - '*.test.*'
+  - '*.spec.*'
