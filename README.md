@@ -17,5 +17,5 @@ Create these labels in **Settings → Labels** (or they’ll be skipped):
 | tests           | `#1d76db`          |
 
 ### Customization
-
+ - Tetsing Labeler
 Edit [`.github/labeler.yml`](.github/labeler.yml) to change which file patterns map to which labels.
